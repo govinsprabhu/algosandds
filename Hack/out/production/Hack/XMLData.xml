@@ -1,0 +1,499 @@
+<SOAP:Envelope 
+    xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:LowFareSearchRsp TraceId="trace" TransactionId="1E1CCF620A076478A97AE033C26B2B5A" ResponseTime="1176" DistanceUnits="MI" CurrencyType="USD" 
+            xmlns:air="http://www.travelport.com/schema/air_v29_0" 
+            xmlns:common_v29_0="http://www.travelport.com/schema/common_v29_0">
+            <common_v29_0:ResponseMessage Code="4039" Type="Warning" ProviderCode="1G">"Result size exceeded the maximum allowable and some results were discarded. It may be necessary to narrow your search using search modifiers."</common_v29_0:ResponseMessage>
+            <air:FlightDetailsList>
+                <air:FlightDetails Key="RueqHFClRpeER4MdDdM0QQ==" Origin="BLR" Destination="HYD" Equipment="319"/>
+                <air:FlightDetails Key="ylCXbIdISsCAq+MWXhaE4w==" Origin="PNQ" Destination="GOI" Equipment="319"/>
+                <air:FlightDetails Key="4ArDWd0MTsuOkITli0pd3w==" Origin="BLR" Destination="GOI" DepartureTime="2015-02-15T17:45:00.000+05:30" ArrivalTime="2015-02-15T18:50:00.000+05:30" FlightTime="65" TravelTime="65" Equipment="319"/>
+                <air:FlightDetails Key="SgfsfhOCReiQ2EFekkdf1A==" Origin="BLR" Destination="GOI" DepartureTime="2015-02-15T12:45:00.000+05:30" ArrivalTime="2015-02-15T13:55:00.000+05:30" FlightTime="70" TravelTime="70" Equipment="738"/>
+                <air:FlightDetails Key="p84rVOyjSsaPlgC1DDiwcg==" Origin="BLR" Destination="HYD" Equipment="319"/>
+                <air:FlightDetails Key="yIjtx3H8RQa+MlVQB05Ekw==" Origin="HYD" Destination="PNQ" Equipment="319"/>
+                <air:FlightDetails Key="G4V/RV2yRku5ZavAUI5+5w==" Origin="BLR" Destination="PNQ" DepartureTime="2015-02-15T20:55:00.000+05:30" ArrivalTime="2015-02-15T22:20:00.000+05:30" FlightTime="85" TravelTime="85" Equipment="738"/>
+                <air:FlightDetails Key="JvJlA9VkRvSU+pbcyZscuA==" Origin="BLR" Destination="PNQ" DepartureTime="2015-02-15T13:35:00.000+05:30" ArrivalTime="2015-02-15T15:00:00.000+05:30" FlightTime="85" TravelTime="85" Equipment="738"/>
+                <air:FlightDetails Key="Cl9RofynTBiW+MzI5JCxfQ==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T06:45:00.000+05:30" ArrivalTime="2015-02-15T08:20:00.000+05:30" FlightTime="95" TravelTime="95" Equipment="319" DestinationTerminal="1A"/>
+                <air:FlightDetails Key="vN6jjH0BSmaa1EBChNjZ8Q==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T21:20:00.000+05:30" ArrivalTime="2015-02-15T23:00:00.000+05:30" FlightTime="100" TravelTime="100" Equipment="319" DestinationTerminal="1A"/>
+                <air:FlightDetails Key="IQ+NpCb/QemXXNsrMO6Q6A==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T08:30:00.000+05:30" ArrivalTime="2015-02-15T10:20:00.000+05:30" FlightTime="110" TravelTime="110" Equipment="319" DestinationTerminal="1A"/>
+                <air:FlightDetails Key="bl6exxScSRSg7AA5HYLzbg==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T19:00:00.000+05:30" ArrivalTime="2015-02-15T20:50:00.000+05:30" FlightTime="110" TravelTime="110" Equipment="320" DestinationTerminal="1A"/>
+                <air:FlightDetails Key="p/qMyztsQGOGCXKip97paA==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T21:50:00.000+05:30" ArrivalTime="2015-02-15T23:25:00.000+05:30" FlightTime="95" TravelTime="95" Equipment="738" DestinationTerminal="1B"/>
+                <air:FlightDetails Key="UBpk3CvhRIqMiR1TQGrE9Q==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T12:40:00.000+05:30" ArrivalTime="2015-02-15T14:15:00.000+05:30" FlightTime="95" TravelTime="95" Equipment="737" DestinationTerminal="1B"/>
+                <air:FlightDetails Key="z/4JNoPSTBC+5HFQGw9quQ==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T09:25:00.000+05:30" ArrivalTime="2015-02-15T11:05:00.000+05:30" FlightTime="100" TravelTime="100" Equipment="738" DestinationTerminal="1B"/>
+                <air:FlightDetails Key="Tuy0BbeETAyo9W8Gv0coCQ==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T16:10:00.000+05:30" ArrivalTime="2015-02-15T17:50:00.000+05:30" FlightTime="100" TravelTime="100" Equipment="73W" DestinationTerminal="1B"/>
+                <air:FlightDetails Key="BQmJZrpgSKWRo823trotqw==" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T08:05:00.000+05:30" ArrivalTime="2015-02-15T09:45:00.000+05:30" FlightTime="100" TravelTime="100" Equipment="73G" DestinationTerminal="1B"/>
+            </air:FlightDetailsList>
+            <air:AirSegmentList>
+                <air:AirSegment Key="K9qaP0O7RG+Dr8OUsooSqA==" Group="0" Carrier="AI" FlightNumber="517" Origin="BLR" Destination="GOI" DepartureTime="2015-02-15T08:15:00.000+05:30" ArrivalTime="2015-02-15T13:10:00.000+05:30" FlightTime="295" Distance="305" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" NumberOfStops="2" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z3|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T8|S6|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="RueqHFClRpeER4MdDdM0QQ=="/>
+                    <air:FlightDetailsRef Key="ylCXbIdISsCAq+MWXhaE4w=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="JCmCoxMMRAe3QlpP0TOGvg==" Group="0" Carrier="AI" FlightNumber="993" Origin="BLR" Destination="GOI" DepartureTime="2015-02-15T17:45:00.000+05:30" ArrivalTime="2015-02-15T18:50:00.000+05:30" FlightTime="65" Distance="305" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z1|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S9|E5|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="4ArDWd0MTsuOkITli0pd3w=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="wBObX9ezRLWFiOHYxXq63g==" Group="0" Carrier="9W" FlightNumber="2354" Origin="BLR" Destination="GOI" DepartureTime="2015-02-15T12:45:00.000+05:30" ArrivalTime="2015-02-15T13:55:00.000+05:30" FlightTime="70" Distance="305" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P4|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B0"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="SgfsfhOCReiQ2EFekkdf1A=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="olQXH7DJSgqg56syigpOoA==" Group="0" Carrier="AI" FlightNumber="517" Origin="BLR" Destination="PNQ" DepartureTime="2015-02-15T08:15:00.000+05:30" ArrivalTime="2015-02-15T11:10:00.000+05:30" FlightTime="175" Distance="449" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" NumberOfStops="1" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z3|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S9|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="p84rVOyjSsaPlgC1DDiwcg=="/>
+                    <air:FlightDetailsRef Key="yIjtx3H8RQa+MlVQB05Ekw=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="6glkC0uoSUyUYpT3n+AreQ==" Group="0" Carrier="9W" FlightNumber="2364" Origin="BLR" Destination="PNQ" DepartureTime="2015-02-15T20:55:00.000+05:30" ArrivalTime="2015-02-15T22:20:00.000+05:30" FlightTime="85" Distance="449" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P4|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B0"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="G4V/RV2yRku5ZavAUI5+5w=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="Rxw0kYPXRTyOva4INIww6Q==" Group="0" Carrier="9W" FlightNumber="2847" Origin="BLR" Destination="PNQ" DepartureTime="2015-02-15T13:35:00.000+05:30" ArrivalTime="2015-02-15T15:00:00.000+05:30" FlightTime="85" Distance="449" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P4|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W0|B0"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="JvJlA9VkRvSU+pbcyZscuA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="+H7oga3qQdq6cSpYHZ+Tjw==" Group="0" Carrier="AI" FlightNumber="640" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T06:45:00.000+05:30" ArrivalTime="2015-02-15T08:20:00.000+05:30" FlightTime="95" Distance="519" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z4|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S9|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="Cl9RofynTBiW+MzI5JCxfQ=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="E64sr3WxR1a4u5uBZevIZg==" Group="0" Carrier="AI" FlightNumber="608" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T21:20:00.000+05:30" ArrivalTime="2015-02-15T23:00:00.000+05:30" FlightTime="100" Distance="519" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z4|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S4|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="vN6jjH0BSmaa1EBChNjZ8Q=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="/71i+2RXT+qtcbLcwfcL8A==" Group="0" Carrier="AI" FlightNumber="604" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T08:30:00.000+05:30" ArrivalTime="2015-02-15T10:20:00.000+05:30" FlightTime="110" Distance="519" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z4|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S9|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="IQ+NpCb/QemXXNsrMO6Q6A=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="kyIcmoN2Q4uMvcM6L8nRBw==" Group="0" Carrier="AI" FlightNumber="610" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T19:00:00.000+05:30" ArrivalTime="2015-02-15T20:50:00.000+05:30" FlightTime="110" Distance="519" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C4|D4|J4|Z1|Y9|B9|M9|H9|K9|Q9|V9|W9|G9|L9|U9|T9|S9|EC|NC"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="bl6exxScSRSg7AA5HYLzbg=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="9vsCDkMASWeD0Xm+jdGBtw==" Group="0" Carrier="9W" FlightNumber="382" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T21:50:00.000+05:30" ArrivalTime="2015-02-15T23:25:00.000+05:30" FlightTime="95" Distance="519" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P3|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B7"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="p/qMyztsQGOGCXKip97paA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="f+wSyB3QQnOc7ORKRo+LOQ==" Group="0" Carrier="9W" FlightNumber="7133" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T12:40:00.000+05:30" ArrivalTime="2015-02-15T14:15:00.000+05:30" FlightTime="95" Distance="519" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:CodeshareInfo>JETKONNECT</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P7|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B7"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="UBpk3CvhRIqMiR1TQGrE9Q=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="bHadCLfnQF2EqVZlEtsB+Q==" Group="0" Carrier="9W" FlightNumber="412" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T09:25:00.000+05:30" ArrivalTime="2015-02-15T11:05:00.000+05:30" FlightTime="100" Distance="519" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P3|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B7"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="z/4JNoPSTBC+5HFQGw9quQ=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="bpaVFQePT4aipauupQyxvA==" Group="0" Carrier="9W" FlightNumber="416" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T16:10:00.000+05:30" ArrivalTime="2015-02-15T17:50:00.000+05:30" FlightTime="100" Distance="519" ETicketability="Yes" Equipment="73W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z6|I6|P1|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B7"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="Tuy0BbeETAyo9W8Gv0coCQ=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="KljG0RsQQyiiY9WWF5aW4g==" Group="0" Carrier="9W" FlightNumber="7001" Origin="BLR" Destination="BOM" DepartureTime="2015-02-15T08:05:00.000+05:30" ArrivalTime="2015-02-15T09:45:00.000+05:30" FlightTime="100" Distance="519" ETicketability="Yes" Equipment="73G" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:CodeshareInfo>JETKONNECT</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G">
+                        <air:BookingCodeInfo BookingCounts="C7|J7|Z7|I7|P7|Y7|M7|T7|U7|N7|L7|Q7|S7|K7|H7|V7|O7|W7|B7"/>
+                    </air:AirAvailInfo>
+                    <air:FlightDetailsRef Key="BQmJZrpgSKWRo823trotqw=="/>
+                </air:AirSegment>
+            </air:AirSegmentList>
+            <air:FareInfoList>
+                <air:FareInfo Key="vjSOyZghRAGtK3k+DfNW5Q==" FareBasis="LEIP" PassengerTypeCode="ADT" Origin="BLR" Destination="GOI" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="INR3070" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="15" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="vjSOyZghRAGtK3k+DfNW5Q==" ProviderCode="1G">gws-eJxNTssOwjAM+5jJdydQtt46RAuVpoImLrvw/5+BuwkJS3GU2HmklJx2Nucl/WHAZ5graluBBiruz4oTR8JUbKB5xpLrCxoPdAtqt106snUTC4trvHixQ+nAtvN1WX8b+znIh075odTm25vuRk4xxilQwgi99AWX1SZn</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="9iWmSowkSMaQYeHrfp9APw==" FareBasis="W2IPO" PassengerTypeCode="ADT" Origin="BLR" Destination="GOI" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="NUC29.74" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:FareSurcharge Key="N47QiwP0TIyjWlyY9Ob/ow==" Type="Other" Amount="NUC75.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="9iWmSowkSMaQYeHrfp9APw==" ProviderCode="1G">gws-eJxNTkkKwzAMfEyYu6Q6i25uXbcJBKd0wfiS/z8jsnPpgDRIM1q890LsWGjwf+iwd5qRfgFIEIvntkB0dGArCoglIsvy2mDzPQn31k9NO5mrix4aBxDCJcqpVKC0fFvfYHJtZz0IM6KmOBul6/2rOXyIJlWdlE0YYU8dAUAnaw==</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="7rI4p3W+Rai3cwXqcaBLqQ==" FareBasis="LEIP" PassengerTypeCode="ADT" Origin="BLR" Destination="PNQ" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="INR3070" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="15" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="7rI4p3W+Rai3cwXqcaBLqQ==" ProviderCode="1G">gws-eJxNTssKg0AM/BiZ+yR1q3tbpbt0QYKVXrz4/59hVil0IBOSmTxSSkrpRflMf+hwdFNFtQ0w0GO1Dx4cCPFiB0UzllxX+HigSvC2XdKdpZlYWNTHixa5lQbsF8/L9tvYzsF9aJTfnmx6fakq5BhjHANdGOAvnaBGJnc=</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="fmop5dNITii29M3GM8F0oQ==" FareBasis="W2IPO" PassengerTypeCode="ADT" Origin="BLR" Destination="PNQ" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="NUC36.35" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:FareSurcharge Key="ZSeGNcJSSZurRzqQRczh4g==" Type="Other" Amount="NUC75.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="fmop5dNITii29M3GM8F0oQ==" ProviderCode="1G">gws-eJxNTssOAjEI/JjN3IHautyqtUYTg+srzV78/8+Qdi9OAhOY4ZFzFuIdC6X8hwnfSRvsUwCDeCz2QEghgr1YQSwVTa7LHT4fSTh634a2MXcXnbUmEEqosikdWEc+3p5g5rGzH4Qb0VO9ONnh9NZWXkSzqs7KLuzhT/0ABkkncQ==</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="tBdCzEkoQwmkD4R8FO70HQ==" FareBasis="O2IPO" PassengerTypeCode="ADT" Origin="BLR" Destination="PNQ" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="NUC50.39" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:FareSurcharge Key="WAdg4bjMTAW6LON6cWSZ7w==" Type="Other" Amount="NUC75.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="tBdCzEkoQwmkD4R8FO70HQ==" ProviderCode="1G">gws-eJxNTkkOgzAMfAyau20aim9p0yCQKkM3IS78/xl1woWR7JE94yXGKMQXFuriCQ32RlfYLwEG8VjshUCtgr3YQCwZs0zLDJ8PJBy8b1U7mIuLBs0dCKnNcigF2Gq+P99gCXVnOQg3oqQ8Otnt8dU1fYh6Ve2VXbjCn/oDBEUncg==</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="BvSMQgelRu2ce5rVp0plbw==" FareBasis="LEIP" PassengerTypeCode="ADT" Origin="BLR" Destination="BOM" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="INR4820" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="15" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="BvSMQgelRu2ce5rVp0plbw==" ProviderCode="1G">gws-eJxNTssKhDAM/BiZ+yTY3fZWxZYtaF1kL178/88wVYQdyIRkJo8Yo1J6Ub7iHzoc3VBQ6gZU0GJcF/ReCbFiB0UT5lS+sHFHFWftekl3lmZiZlYbz5rlVhqwXzzO27OxnYP50Ch9LNVh+lFVSB9C8I4mvGEvnZohJm4=</air:FareRuleKey>
+                </air:FareInfo>
+                <air:FareInfo Key="f22KDo70T2ejTjIGvqSChw==" FareBasis="B2IPO" PassengerTypeCode="ADT" Origin="BLR" Destination="BOM" EffectiveDate="2014-12-06T05:40:00.000+00:00" DepartureDate="2015-02-15" Amount="NUC20.73" NegotiatedFare="false" NotValidBefore="2015-02-15" NotValidAfter="2015-02-15">
+                    <air:FareSurcharge Key="zvS6aQErQq6RLyEC8YWqeg==" Type="Other" Amount="NUC75.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="f22KDo70T2ejTjIGvqSChw==" ProviderCode="1G">gws-eJxNTkEOgzAMewzyPQkrkFtpV8SkUdDGhLjs/89YWi6zlFixrSTeeyG+sVDn/9Dg2+iB/IlAhliFdYFQ34JtOEEsCUEe22oqOxJ2pufqXcwlRZOmDoTYJrmcApy1h+cL6urKcg+WQ2lpNsrjfdcjvokGVR2UzehhP/0AzNcnIw==</air:FareRuleKey>
+                </air:FareInfo>
+            </air:FareInfoList>
+            <air:RouteList>
+                <air:Route Key="aisKUk9CQgKMo8o3l40ciQ==">
+                    <air:Leg Key="M9JtCjwlRoa+wLl38CEH1w==" Group="0" Origin="BLR" Destination="BOM"/>
+                </air:Route>
+            </air:RouteList>
+            <air:AirPricingSolution Key="QVP/emC0RGuxuyGIhnvO3A==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60">
+                <air:Journey TravelTime="P0DT4H55M0S">
+                    <air:AirSegmentRef Key="K9qaP0O7RG+Dr8OUsooSqA=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="4zs2q5L3S0aaSGbATMz5Aw==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="vjSOyZghRAGtK3k+DfNW5Q=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="vjSOyZghRAGtK3k+DfNW5Q==" SegmentRef="K9qaP0O7RG+Dr8OUsooSqA=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD4.00"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD30.00"/>
+                    <air:FareCalc>BLR AI GOI 3070LEIP INR3070END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="aNXVflogS0OzkHG5JU3Duw==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60">
+                <air:Journey TravelTime="P0DT1H5M0S">
+                    <air:AirSegmentRef Key="JCmCoxMMRAe3QlpP0TOGvg=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="PGkdyAfKQ2KlavDZMbUHPA==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="vjSOyZghRAGtK3k+DfNW5Q=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="vjSOyZghRAGtK3k+DfNW5Q==" SegmentRef="JCmCoxMMRAe3QlpP0TOGvg=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD4.00"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD30.00"/>
+                    <air:FareCalc>BLR AI GOI 3070LEIP INR3070END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="4WZUZS3aROio88Dhc0nvbA==" TotalPrice="USD142.60" BasePrice="INR6339" ApproximateTotalPrice="USD142.60" ApproximateBasePrice="USD103.00" EquivalentBasePrice="USD103.00" Taxes="USD39.60">
+                <air:Journey TravelTime="P0DT1H10M0S">
+                    <air:AirSegmentRef Key="wBObX9ezRLWFiOHYxXq63g=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="mTdzqHgSRjKMNXbf5AFNYQ==" TotalPrice="USD142.60" BasePrice="INR6339" ApproximateTotalPrice="USD142.60" ApproximateBasePrice="USD103.00" EquivalentBasePrice="USD103.00" Taxes="USD39.60" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="9iWmSowkSMaQYeHrfp9APw=="/>
+                    <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="9iWmSowkSMaQYeHrfp9APw==" SegmentRef="wBObX9ezRLWFiOHYxXq63g=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.30"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD9.70"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W GOI Q75.00 29.74W2IPO NUC104.74END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="XmKpZpWdSjGOi4uO0lofaw==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60">
+                <air:Journey TravelTime="P0DT2H55M0S">
+                    <air:AirSegmentRef Key="olQXH7DJSgqg56syigpOoA=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="sifWMl+WQ2ypDmW+2oxHLA==" TotalPrice="USD92.60" BasePrice="INR3070" ApproximateTotalPrice="USD92.60" ApproximateBasePrice="USD50.00" EquivalentBasePrice="USD50.00" Taxes="USD42.60" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="7rI4p3W+Rai3cwXqcaBLqQ=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="7rI4p3W+Rai3cwXqcaBLqQ==" SegmentRef="olQXH7DJSgqg56syigpOoA=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD4.00"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD30.00"/>
+                    <air:FareCalc>BLR AI PNQ 3070LEIP INR3070END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="gFp07sHVSWWDS9ugT+ZZwg==" TotalPrice="USD148.90" BasePrice="INR6739" ApproximateTotalPrice="USD148.90" ApproximateBasePrice="USD109.00" EquivalentBasePrice="USD109.00" Taxes="USD39.90">
+                <air:Journey TravelTime="P0DT1H25M0S">
+                    <air:AirSegmentRef Key="6glkC0uoSUyUYpT3n+AreQ=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="IH3HneOdScCoU0JLtRmuKA==" TotalPrice="USD148.90" BasePrice="INR6739" ApproximateTotalPrice="USD148.90" ApproximateBasePrice="USD109.00" EquivalentBasePrice="USD109.00" Taxes="USD39.90" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="fmop5dNITii29M3GM8F0oQ=="/>
+                    <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="fmop5dNITii29M3GM8F0oQ==" SegmentRef="6glkC0uoSUyUYpT3n+AreQ=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.60"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD9.70"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W PNQ Q75.00 36.35W2IPO NUC111.35END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="KznV0ivUSFeRfRe45LHbLw==" TotalPrice="USD163.60" BasePrice="INR7589" ApproximateTotalPrice="USD163.60" ApproximateBasePrice="USD123.00" EquivalentBasePrice="USD123.00" Taxes="USD40.60">
+                <air:Journey TravelTime="P0DT1H25M0S">
+                    <air:AirSegmentRef Key="Rxw0kYPXRTyOva4INIww6Q=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="4ilfjyBVSJixdA4nxVcPcA==" TotalPrice="USD163.60" BasePrice="INR7589" ApproximateTotalPrice="USD163.60" ApproximateBasePrice="USD123.00" EquivalentBasePrice="USD123.00" Taxes="USD40.60" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="tBdCzEkoQwmkD4R8FO70HQ=="/>
+                    <air:BookingInfo BookingCode="O" CabinClass="Economy" FareInfoRef="tBdCzEkoQwmkD4R8FO70HQ==" SegmentRef="Rxw0kYPXRTyOva4INIww6Q=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD7.30"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD9.70"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W PNQ Q75.00 50.39O2IPO NUC125.39END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD28.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD28.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="xHmT2FHURyaHmAUPhUROFA==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10">
+                <air:Journey TravelTime="P0DT1H35M0S">
+                    <air:AirSegmentRef Key="+H7oga3qQdq6cSpYHZ+Tjw=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="CPMT24oJSVWJRDm33vn96A==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="BvSMQgelRu2ce5rVp0plbw=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="BvSMQgelRu2ce5rVp0plbw==" SegmentRef="+H7oga3qQdq6cSpYHZ+Tjw=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD5.60"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD34.90"/>
+                    <air:FareCalc>BLR AI BOM 4820LEIP INR4820END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="B002npzaQNCWVssBzx4KWQ==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10">
+                <air:Journey TravelTime="P0DT1H40M0S">
+                    <air:AirSegmentRef Key="E64sr3WxR1a4u5uBZevIZg=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="iYVnPL1WTwi6wnW/kaerHw==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="BvSMQgelRu2ce5rVp0plbw=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="BvSMQgelRu2ce5rVp0plbw==" SegmentRef="E64sr3WxR1a4u5uBZevIZg=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD5.60"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD34.90"/>
+                    <air:FareCalc>BLR AI BOM 4820LEIP INR4820END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="yIhIfiH4Tp2j7pVwez8MYg==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10">
+                <air:Journey TravelTime="P0DT1H50M0S">
+                    <air:AirSegmentRef Key="/71i+2RXT+qtcbLcwfcL8A=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="F4Ez9PUFRimcbvXIW5ZW/g==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="BvSMQgelRu2ce5rVp0plbw=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="BvSMQgelRu2ce5rVp0plbw==" SegmentRef="/71i+2RXT+qtcbLcwfcL8A=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD5.60"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD34.90"/>
+                    <air:FareCalc>BLR AI BOM 4820LEIP INR4820END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="z02y0CBGTvSxow2zbYaExw==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10">
+                <air:Journey TravelTime="P0DT1H50M0S">
+                    <air:AirSegmentRef Key="kyIcmoN2Q4uMvcM6L8nRBw=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="Qmg5hGlCQv6s4Y7X6fYa5w==" TotalPrice="USD127.10" BasePrice="INR4820" ApproximateTotalPrice="USD127.10" ApproximateBasePrice="USD78.00" EquivalentBasePrice="USD78.00" Taxes="USD49.10" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="No" PlatingCarrier="AI" ProviderCode="1G">
+                    <air:FareInfoRef Key="BvSMQgelRu2ce5rVp0plbw=="/>
+                    <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="BvSMQgelRu2ce5rVp0plbw==" SegmentRef="kyIcmoN2Q4uMvcM6L8nRBw=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD5.60"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD34.90"/>
+                    <air:FareCalc>BLR AI BOM 4820LEIP INR4820END</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty>
+                        <air:Amount>USD17.00</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="mcmXCuNfRHOccr2tLUH7MA==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30">
+                <air:Journey TravelTime="P0DT1H35M0S">
+                    <air:AirSegmentRef Key="9vsCDkMASWeD0Xm+jdGBtw=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="fvJ26/m8QZyQWoHUpAUMxw==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="f22KDo70T2ejTjIGvqSChw=="/>
+                    <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="f22KDo70T2ejTjIGvqSChw==" SegmentRef="9vsCDkMASWeD0Xm+jdGBtw=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.10"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD14.60"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W BOM Q75.00 20.73B2IPO NUC95.73END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="1s3nT5g5S/KPQJEFDMAUMg==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30">
+                <air:Journey TravelTime="P0DT1H35M0S">
+                    <air:AirSegmentRef Key="f+wSyB3QQnOc7ORKRo+LOQ=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="rUdbbQRLSjKWWuzBwePybg==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="f22KDo70T2ejTjIGvqSChw=="/>
+                    <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="f22KDo70T2ejTjIGvqSChw==" SegmentRef="f+wSyB3QQnOc7ORKRo+LOQ=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.10"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD14.60"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W BOM Q75.00 20.73B2IPO NUC95.73END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="2CSgi49wRGmMHYU/rYsVRQ==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30">
+                <air:Journey TravelTime="P0DT1H40M0S">
+                    <air:AirSegmentRef Key="bHadCLfnQF2EqVZlEtsB+Q=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="bLNfoRmEQ2aWLcoSySBKcQ==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="f22KDo70T2ejTjIGvqSChw=="/>
+                    <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="f22KDo70T2ejTjIGvqSChw==" SegmentRef="bHadCLfnQF2EqVZlEtsB+Q=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.10"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD14.60"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W BOM Q75.00 20.73B2IPO NUC95.73END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="+ePvfBusSzaE31Q60YGGxQ==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30">
+                <air:Journey TravelTime="P0DT1H40M0S">
+                    <air:AirSegmentRef Key="bpaVFQePT4aipauupQyxvA=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="U4Ern7K1RQmTqxHO0LGtAQ==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="f22KDo70T2ejTjIGvqSChw=="/>
+                    <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="f22KDo70T2ejTjIGvqSChw==" SegmentRef="bpaVFQePT4aipauupQyxvA=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.10"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD14.60"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W BOM Q75.00 20.73B2IPO NUC95.73END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="x+L5lfJZRles/rmDeKot8g==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30">
+                <air:Journey TravelTime="P0DT1H40M0S">
+                    <air:AirSegmentRef Key="KljG0RsQQyiiY9WWF5aW4g=="/>
+                </air:Journey>
+                <air:LegRef Key="M9JtCjwlRoa+wLl38CEH1w=="/>
+                <air:AirPricingInfo Key="ag7LH6ijTTCTRhuvWTYGFA==" TotalPrice="USD138.30" BasePrice="INR5794" ApproximateTotalPrice="USD138.30" ApproximateBasePrice="USD94.00" EquivalentBasePrice="USD94.00" Taxes="USD44.30" LatestTicketingTime="2015-02-15T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="9W" ProviderCode="1G">
+                    <air:FareInfoRef Key="f22KDo70T2ejTjIGvqSChw=="/>
+                    <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="f22KDo70T2ejTjIGvqSChw==" SegmentRef="KljG0RsQQyiiY9WWF5aW4g=="/>
+                    <air:TaxInfo Category="IN" Amount="USD6.20"/>
+                    <air:TaxInfo Category="JN" Amount="USD6.10"/>
+                    <air:TaxInfo Category="WO" Amount="USD2.40"/>
+                    <air:TaxInfo Category="YQ" Amount="USD14.60"/>
+                    <air:TaxInfo Category="YR" Amount="USD15.00"/>
+                    <air:FareCalc>BLR 9W BOM Q75.00 20.73B2IPO NUC95.73END ROE60.52</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty>
+                        <air:Amount>USD32.00</air:Amount>
+                    </air:ChangePenalty>
+                </air:AirPricingInfo>
+            </air:AirPricingSolution>
+        </air:LowFareSearchRsp>
+    </SOAP:Body>
+</SOAP:Envelope>
